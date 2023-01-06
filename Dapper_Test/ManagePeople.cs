@@ -13,7 +13,7 @@ namespace Dapper_Test
         {
 
              List<Person_Viewmodel> list;
-            using(IDbConnection db=new SqlConnection(ConnectionString))
+            using(IDbConnection db=new  SqlConnection(ConnectionString))
             {
 
             }
